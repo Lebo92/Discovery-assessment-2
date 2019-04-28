@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="dist/css/discovery.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <link rel='shortcut icon' href='dist/img/favi.png' type='image/x-icon' />
+
+    <title>Planet X - Discovery Assessment 2</title>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="header-section">
+
+        <!--- Header Section --->
+        <header>
+            <div class="top-menu">
+
+                <!--- This div logo is specifically for mobile display --->
+                <div class="mobile-logo"><p class="std_p">Planet x</p></div>
+
+                <!--- Animated burger --->
+                <div class="burder-nav">
+                    <span class="nav-line nav-line-1"></span>
+                    <span class="nav-line nav-line-2"></span>
+                    <span class="nav-line nav-line-3"></span>
+                </div>
+            </div>
+
+            <!---
+            Verical menu items
+            Switches to horizontal menu item in mobile view
+             --->
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="show" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Space</a>
+                        </li>
+                        <li>
+                            <a href="#">Planets</a>
+                        </li>
+                        <li>
+                            <a href="#">Solar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!--- Container with the rest of the body content --->
+    <div class="main-content">
+        <div class="content">
+        <div class="content-intro">
+            <div class="intro-subcontent">
+                <div class="intro-top-section">
+                    <!--- This div logo is specifically for desktop and tablet display --->
+                    <div class="desktop-logo"><p class="std_p">Planet x</p></div>
+                    <div class="btn-start btn-float"><a class="shadow" href="#">Get Started</a></div>
+                    <p class="std_title row-vertical-spacing-1">Let's got to<br />Mars and Pluto</p>
+                </div>
+
+                <div class="color-overlay"></div>
+
+                <!---
+                 This is some information about the planets in the solar system.
+                 Once clicked on their respective planet names, the requisite information
+                 will be displayed
+                 --->
+                <div class="group-content">
+                    <div class="group-container">
+                        <div class="planet-description">
+                            <div class="description mercury-desc" data-planet-type="mercury-planet">
+                                <p class="std_copy">Mercury is the smallest planet in the Solar System. Its orbital period around the Sun takes 87.97 days.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description venus-desc" data-planet-type="venus-planet">
+                                <p class="std_copy">Venus is the second planet from the Sun. It has the longest rotation period in the Solar System.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description earth-desc" data-planet-type="earth-planet">
+                                <p class="std_copy">Earth is the third planet from the Sun and the only astronomical object known to harbor life.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description mars-desc planet-show" data-planet-type="mars-planet">
+                                <p class="std_copy">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description jupiter-desc" data-planet-type="jupiter-planet">
+                                <p class="std_copy">Jupiter is the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description saturn-desc"data-planet-type="saturn-planet">
+                                <p class="std_copy">Saturn is the second-largest in the Solar System. It is a gas giant with a radius about nine times that of Earth.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description uranus-desc" data-planet-type="uranus-planet">
+                                <p class="std_copy">Uranus is the seventh planet from the Sun. It is fourth-largest planetary mass in the Solar System.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description neptune-desc"data-planet-type="neptune-planet">
+                                <p class="std_copy">Neptune is the farthest planet from the Sun, the fourth-largest planet by diameter and third-massive planet.<br/>Wikipedia</p>
+                            </div>
+
+                            <div class="description pluto-desc"data-planet-type="pluto-planet">
+                                <p class="std_copy">Pluto was discovered by Clyde Tombaugh and considered to be the ninth planet from the Sun.<br/>Wikipedia</p>
+                            </div>
+                        </div>
+
+                        <!---
+                        This container possesses the planet names.
+                        The images for these planets are pseudo elements
+                         --->
+                        <div class="area-list">
+                            <div class="description">
+                                <p class="std_p title_underline">Places to go</p>
+                                <ul>
+                                    <li>
+                                        <a class="neptune-planet bg-1" href="#">Neptune</a>
+                                    </li>
+                                    <li>
+                                        <a class="mercury-planet bg-2" href="#">Mercury</a>
+                                    </li>
+                                    <li>
+                                        <a class="saturn-planet bg-3" href="#">Saturn</a>
+                                    </li>
+                                    <li>
+                                        <a class="venus-planet bg-1" href="#">Venus</a>
+                                    </li>
+                                    <li>
+                                        <a class="earth-planet bg-2" href="#">Earth</a>
+                                    </li>
+                                    <li>
+                                        <a class="jupiter-planet bg-3" href="#">Jupiter</a>
+                                    </li>
+                                    <li>
+                                        <a class="uranus-planet bg-1" href="#">Uranus</a>
+                                    </li>
+                                    <li>
+                                        <a class="pluto-planet bg-2" href="#">Pluto</a>
+                                    </li>
+                                    <li>
+                                        <a class="mars-planet bg-3" href="#">Mars</a>
+                                    </li>
+                                </ul>
+
+                                <!--- Button to scroll down the Planet names --->
+                                <div class="roll-prompt">
+                                    <div class="roll-btn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!--- This div has the main location images and information --->
+            <!--- Section is set up in segments for each location with its information --->
+        <div class="body-content">
+            <div class="body-subcontent">
+                <div class="group-content">
+                    <div class="group-sub">
+                        <div class="places">
+                            <div class="card card-image place-one">
+                                <div class="places-content">
+                                    <p class="std_copy_2">&yen;29 000,00</p>
+                                    <div class="places-info">
+                                        <p class="title-2 title_underline">Mount Modimolle</p>
+                                        <p class="std_copy_3 social-handle">@Mount Climbers</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--- Travel information --->
+                            <p class="std_copy_3">Mileage</p>
+                            <p class="std_copy"><span>16 997</span> km</p>
+                            <!--- Progress bar --->
+                            <div class="meter">
+                                <span style="width:60%" class="green-one-progress"></span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="places">
+                            <div class="card card-image place-two">
+                                <div class="places-content">
+                                    <p class="std_copy_2">&yen;29 000,00</p>
+                                    <div class="places-info">
+                                        <p class="title-2 title_underline">Blueocollie Seas</p>
+                                        <p class="std_copy_3 social-handle">@Brocolli Tints</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--- Travel information --->
+                            <p class="std_copy_3">Destination</p>
+                            <p class="std_copy"><span>224</span>km</p>
+                            <!--- Progress bar --->
+                            <div class="meter">
+                                <span style="width:90%" class="green-two-progress"></span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="places">
+                            <div class="card card-image place-three">
+                                <div class="places-content">
+                                    <p class="std_copy_2">&yen;29 000,00</p>
+                                    <div class="places-info">
+                                        <p class="title-2 title_underline">High Men Cave</p>
+                                        <p class="std_copy_3 social-handle">@Men Cave Travellers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--- Travel information --->
+                            <p class="std_copy_3">On Track</p>
+                            <p class="std_copy"><span>1:40:15</span>h</p>
+                            <!--- Progress bar --->
+                            <div class="meter">
+                                <span style="width:22%" class="red-progress"></span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="places">
+                            <div class="card card-image place-four">
+                                <div class="places-content">
+                                    <p class="std_copy_2">&yen;29 000,00</p>
+                                    <div class="places-info">
+                                        <p class="title-2 title_underline">Zifeng Tower</p>
+                                        <p class="std_copy_3 social-handle">@Globe Trotters</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--- Travel information --->
+                            <p class="std_copy_3">Population</p>
+                            <p class="std_copy"><span>30203781</span> p</p>
+                            <!--- Progress bar --->
+                            <div class="meter">
+                                <span style="width:75%" class="blue-progress"></span>
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+<script src='dist/js/jquery-3.4.0.min.js'></script>
+<script src='dist/js/progress-bar.js'></script>
+<script src='dist/js/menu.js'></script>
+<script src='dist/js/planets.js'></script>
+<script src='dist/js/bootstrap.js'></script>
